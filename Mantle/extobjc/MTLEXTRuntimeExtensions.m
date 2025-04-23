@@ -509,6 +509,7 @@ mtl_propertyAttributes *mtl_copyPropertyAttributes (objc_property_t property) {
 
         switch (flag) {
         case '\0':
+	case '?':
             break;
 
         case 'R':
